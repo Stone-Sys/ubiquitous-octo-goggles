@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Source Code Pro:700|Source Code Pro:400');
+
+:root {
+    --text: #f6fdf7;
+    --background: #051a07;
+    --primary: #0f5718;
+    --secondary: #0b4112;
+    --accent: #3cdd4f;
+
+  }
+
+  body {
+    background: var(--background);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: var(--text);
+    font-family: 'Source Code Pro';
+    font-weight: 400;
+  }
+  
+  h1, h2, h3, h4, h5 {
+    font-family: 'Source Code Pro';
+    font-weight: 700;
+  }
+  
+  html {font-size: 100%;} /* 16px */
+  
+  h1 {font-size: 4.210rem; /* 67.36px */
+      text-align: center;}
+  
+  h2 {font-size: 3.158rem; /* 50.56px */}
+  
+  h3 {font-size: 2.369rem; /* 37.92px */}
+  
+  h4 {font-size: 1.777rem; /* 28.48px */}
+  
+  h5 {font-size: 1.333rem; /* 21.28px */}
+  
+  small {font-size: 0.750rem; /* 12px */}
+
+.color-effect{
+    background: linear-gradient(120deg,var(--primary),var(--accent));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+
+.font-effect{
+    font-style: italic;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--text);
+    color: transparent;
+    }
